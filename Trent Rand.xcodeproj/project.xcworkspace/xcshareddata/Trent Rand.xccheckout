@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>DE29EEE9-7D12-4676-8502-FA10ACA853C2</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Trent Rand</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>5F38265D839A5E473515DD4E8E497B628A3B228E</key>
+		<string>https://github.com/trentrand/Apple-WWDC-2015-Application.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Trent Rand.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>5F38265D839A5E473515DD4E8E497B628A3B228E</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/trentrand/Apple-WWDC-2015-Application.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>5F38265D839A5E473515DD4E8E497B628A3B228E</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>5F38265D839A5E473515DD4E8E497B628A3B228E</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Trent%20Rand</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,5 @@
+#include "Pods-Trent Rand-VLBFoundation.xcconfig"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers/Build" "${PODS_ROOT}/Headers/Build/VLBFoundation" "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/CocoaLumberjack" "${PODS_ROOT}/Headers/Public/SlideMenu3D" "${PODS_ROOT}/Headers/Public/VLBFoundation" "${PODS_ROOT}/Headers/Public/VLBScrollView"
+OTHER_LDFLAGS = ${PODS_TRENT_RAND_VLBFOUNDATION_OTHER_LDFLAGS} -ObjC
+PODS_ROOT = ${SRCROOT}

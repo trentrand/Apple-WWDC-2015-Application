@@ -2,7 +2,8 @@
 # platform :ios, '6.0'
 
 target 'Trent Rand' do
-
+pod "SlideMenu3D"
+pod "VLBScrollView"
 end
 
 target 'Trent RandTests' do
