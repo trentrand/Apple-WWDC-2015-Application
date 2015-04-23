@@ -19,6 +19,10 @@
 		DF91719B1AE88637006FB977 /* menuicon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DF9171981AE88637006FB977 /* menuicon@2x.png */; };
 		DF91719C1AE88637006FB977 /* menuicon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = DF9171991AE88637006FB977 /* menuicon@3x.png */; };
 		DF91719E1AE88894006FB977 /* navbarBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = DF91719D1AE88894006FB977 /* navbarBackground.png */; };
+		DF9171A41AE8A2BE006FB977 /* Traits.png in Resources */ = {isa = PBXBuildFile; fileRef = DF91719F1AE8A2BE006FB977 /* Traits.png */; };
+		DF9171A51AE8A2BE006FB977 /* Portfolio.png in Resources */ = {isa = PBXBuildFile; fileRef = DF9171A01AE8A2BE006FB977 /* Portfolio.png */; };
+		DF9171A61AE8A2BE006FB977 /* Contact.png in Resources */ = {isa = PBXBuildFile; fileRef = DF9171A11AE8A2BE006FB977 /* Contact.png */; };
+		DF9171A71AE8A2BE006FB977 /* Knowledge.png in Resources */ = {isa = PBXBuildFile; fileRef = DF9171A21AE8A2BE006FB977 /* Knowledge.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +56,10 @@
 		DF9171981AE88637006FB977 /* menuicon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menuicon@2x.png"; sourceTree = "<group>"; };
 		DF9171991AE88637006FB977 /* menuicon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menuicon@3x.png"; sourceTree = "<group>"; };
 		DF91719D1AE88894006FB977 /* navbarBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = navbarBackground.png; sourceTree = "<group>"; };
+		DF91719F1AE8A2BE006FB977 /* Traits.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Traits.png; sourceTree = "<group>"; };
+		DF9171A01AE8A2BE006FB977 /* Portfolio.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Portfolio.png; sourceTree = "<group>"; };
+		DF9171A11AE8A2BE006FB977 /* Contact.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Contact.png; sourceTree = "<group>"; };
+		DF9171A21AE8A2BE006FB977 /* Knowledge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Knowledge.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +141,10 @@
 				DF9171971AE88637006FB977 /* menuicon@1x.png */,
 				DF9171981AE88637006FB977 /* menuicon@2x.png */,
 				DF9171991AE88637006FB977 /* menuicon@3x.png */,
+				DF91719F1AE8A2BE006FB977 /* Traits.png */,
+				DF9171A01AE8A2BE006FB977 /* Portfolio.png */,
+				DF9171A11AE8A2BE006FB977 /* Contact.png */,
+				DF9171A21AE8A2BE006FB977 /* Knowledge.png */,
 				DF5E126C1ADE6AED005D036A /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -240,10 +252,14 @@
 			files = (
 				DF5E12731ADE6AED005D036A /* Main.storyboard in Resources */,
 				DF5E12781ADE6AED005D036A /* LaunchScreen.xib in Resources */,
+				DF9171A61AE8A2BE006FB977 /* Contact.png in Resources */,
+				DF9171A71AE8A2BE006FB977 /* Knowledge.png in Resources */,
 				DF91719E1AE88894006FB977 /* navbarBackground.png in Resources */,
 				DF91719B1AE88637006FB977 /* menuicon@2x.png in Resources */,
+				DF9171A41AE8A2BE006FB977 /* Traits.png in Resources */,
 				DF91719A1AE88637006FB977 /* menuicon@1x.png in Resources */,
 				DF91719C1AE88637006FB977 /* menuicon@3x.png in Resources */,
+				DF9171A51AE8A2BE006FB977 /* Portfolio.png in Resources */,
 				DF5E12751ADE6AED005D036A /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
