@@ -12,13 +12,40 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
+    var slideMenuVC: HKSlideMenu3DController!
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        self.window = UIWindow(frame: UIScreen.mainScreen().bounds)
+        
+        slideMenuVC = HKSlideMenu3DController()
+        slideMenuVC.view.frame = UIScreen.mainScreen().bounds
+        
+        let mainStoryboard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
+        
+        let menuVC: AnyObject! = mainStoryboard.instantiateViewControllerWithIdentifier("menuVC")
+        
+        let navMain: AnyObject! = mainStoryboard.instantiateViewControllerWithIdentifier("navVC")
+        
+        self.slideMenuVC.menuViewController = menuVC as! MenuViewController
+        self.slideMenuVC.mainViewController = navMain as! UINavigationController
+        
+        self.slideMenuVC.backgroundImage = UIImage(named: "navbarBackground.png")
+        self.slideMenuVC.backgroundImageContentMode = UIViewContentMode.TopLeft;
+        
+        self.slideMenuVC.enablePan = true;
+        
+        self.window?.rootViewController = self.slideMenuVC
+        
+        self.window?.makeKeyAndVisible()
+        
         return true
     }
-
+    
+    class func mainDelegate() -> AppDelegate {
+        return UIApplication.sharedApplication().delegate as! AppDelegate
+    }
+   
     func applicationWillResignActive(application: UIApplication) {
         // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
         // Use this method to pause ongoing tasks, disable timers, and throttle down OpenGL ES frame rates. Games should use this method to pause the game.

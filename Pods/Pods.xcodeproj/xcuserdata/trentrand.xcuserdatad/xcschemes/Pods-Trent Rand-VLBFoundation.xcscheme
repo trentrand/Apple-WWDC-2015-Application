@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "4F3FF92BE7CC8D4BCC306309"
+               BlueprintIdentifier = "94758A2A2A387D9F066DEF6B"
                BuildableName = "libPods-Trent Rand-VLBFoundation.a"
                BlueprintName = "Pods-Trent Rand-VLBFoundation"
                ReferencedContainer = "container:Pods.xcodeproj">

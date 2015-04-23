@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "293ACC02B0DF97C2873798C0"
+               BlueprintIdentifier = "77D656F0F0B50A72B3BF8C5A"
                BuildableName = "libPods-Trent Rand-VLBScrollView.a"
                BlueprintName = "Pods-Trent Rand-VLBScrollView"
                ReferencedContainer = "container:Pods.xcodeproj">
