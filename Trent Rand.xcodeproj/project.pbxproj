@@ -15,14 +15,16 @@
 		DF5E12751ADE6AED005D036A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF5E12741ADE6AED005D036A /* Images.xcassets */; };
 		DF5E12781ADE6AED005D036A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF5E12761ADE6AED005D036A /* LaunchScreen.xib */; };
 		DF5E12841ADE6AED005D036A /* Trent_RandTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5E12831ADE6AED005D036A /* Trent_RandTests.swift */; };
+		DF8EE9241AEA16B0000A5004 /* Traits.png in Resources */ = {isa = PBXBuildFile; fileRef = DF8EE9201AEA16B0000A5004 /* Traits.png */; };
+		DF8EE9251AEA16B0000A5004 /* Contact.png in Resources */ = {isa = PBXBuildFile; fileRef = DF8EE9211AEA16B0000A5004 /* Contact.png */; };
+		DF8EE9261AEA16B0000A5004 /* Portfolio.png in Resources */ = {isa = PBXBuildFile; fileRef = DF8EE9221AEA16B0000A5004 /* Portfolio.png */; };
+		DF8EE9271AEA16B0000A5004 /* Knowledge.png in Resources */ = {isa = PBXBuildFile; fileRef = DF8EE9231AEA16B0000A5004 /* Knowledge.png */; };
+		DF8EE92B1AEA22D4000A5004 /* HamburgerTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF8EE92A1AEA22D4000A5004 /* HamburgerTableViewCell.xib */; };
 		DF91719A1AE88637006FB977 /* menuicon@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = DF9171971AE88637006FB977 /* menuicon@1x.png */; };
 		DF91719B1AE88637006FB977 /* menuicon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DF9171981AE88637006FB977 /* menuicon@2x.png */; };
 		DF91719C1AE88637006FB977 /* menuicon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = DF9171991AE88637006FB977 /* menuicon@3x.png */; };
 		DF91719E1AE88894006FB977 /* navbarBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = DF91719D1AE88894006FB977 /* navbarBackground.png */; };
-		DF9171A41AE8A2BE006FB977 /* Traits.png in Resources */ = {isa = PBXBuildFile; fileRef = DF91719F1AE8A2BE006FB977 /* Traits.png */; };
-		DF9171A51AE8A2BE006FB977 /* Portfolio.png in Resources */ = {isa = PBXBuildFile; fileRef = DF9171A01AE8A2BE006FB977 /* Portfolio.png */; };
-		DF9171A61AE8A2BE006FB977 /* Contact.png in Resources */ = {isa = PBXBuildFile; fileRef = DF9171A11AE8A2BE006FB977 /* Contact.png */; };
-		DF9171A71AE8A2BE006FB977 /* Knowledge.png in Resources */ = {isa = PBXBuildFile; fileRef = DF9171A21AE8A2BE006FB977 /* Knowledge.png */; };
+		DFA3F5721AEA328B0087E0E7 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA3F5711AEA328B0087E0E7 /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,14 +54,16 @@
 		DF5E127D1ADE6AED005D036A /* Trent RandTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Trent RandTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF5E12821ADE6AED005D036A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DF5E12831ADE6AED005D036A /* Trent_RandTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trent_RandTests.swift; sourceTree = "<group>"; };
+		DF8EE9201AEA16B0000A5004 /* Traits.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Traits.png; sourceTree = "<group>"; };
+		DF8EE9211AEA16B0000A5004 /* Contact.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Contact.png; sourceTree = "<group>"; };
+		DF8EE9221AEA16B0000A5004 /* Portfolio.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Portfolio.png; sourceTree = "<group>"; };
+		DF8EE9231AEA16B0000A5004 /* Knowledge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Knowledge.png; sourceTree = "<group>"; };
+		DF8EE92A1AEA22D4000A5004 /* HamburgerTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HamburgerTableViewCell.xib; sourceTree = "<group>"; };
 		DF9171971AE88637006FB977 /* menuicon@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menuicon@1x.png"; sourceTree = "<group>"; };
 		DF9171981AE88637006FB977 /* menuicon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menuicon@2x.png"; sourceTree = "<group>"; };
 		DF9171991AE88637006FB977 /* menuicon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menuicon@3x.png"; sourceTree = "<group>"; };
 		DF91719D1AE88894006FB977 /* navbarBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = navbarBackground.png; sourceTree = "<group>"; };
-		DF91719F1AE8A2BE006FB977 /* Traits.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Traits.png; sourceTree = "<group>"; };
-		DF9171A01AE8A2BE006FB977 /* Portfolio.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Portfolio.png; sourceTree = "<group>"; };
-		DF9171A11AE8A2BE006FB977 /* Contact.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Contact.png; sourceTree = "<group>"; };
-		DF9171A21AE8A2BE006FB977 /* Knowledge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Knowledge.png; sourceTree = "<group>"; };
+		DFA3F5711AEA328B0087E0E7 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,9 +128,11 @@
 			children = (
 				DF5E12761ADE6AED005D036A /* LaunchScreen.xib */,
 				DF5E12711ADE6AED005D036A /* Main.storyboard */,
+				DF8EE92A1AEA22D4000A5004 /* HamburgerTableViewCell.xib */,
 				DF5E126D1ADE6AED005D036A /* AppDelegate.swift */,
 				DF5E126F1ADE6AED005D036A /* ViewController.swift */,
 				DF2E038E1AE6F87C009C0A5D /* MenuViewController.swift */,
+				DFA3F5711AEA328B0087E0E7 /* Extensions.swift */,
 				DF2E038B1AE6F7A3009C0A5D /* Trent Rand-Bridging-Header.h */,
 				DF5E12741ADE6AED005D036A /* Images.xcassets */,
 				DF5E126B1ADE6AED005D036A /* Supporting Files */,
@@ -141,11 +147,11 @@
 				DF9171971AE88637006FB977 /* menuicon@1x.png */,
 				DF9171981AE88637006FB977 /* menuicon@2x.png */,
 				DF9171991AE88637006FB977 /* menuicon@3x.png */,
-				DF91719F1AE8A2BE006FB977 /* Traits.png */,
-				DF9171A01AE8A2BE006FB977 /* Portfolio.png */,
-				DF9171A11AE8A2BE006FB977 /* Contact.png */,
-				DF9171A21AE8A2BE006FB977 /* Knowledge.png */,
 				DF5E126C1ADE6AED005D036A /* Info.plist */,
+				DF8EE9201AEA16B0000A5004 /* Traits.png */,
+				DF8EE9211AEA16B0000A5004 /* Contact.png */,
+				DF8EE9221AEA16B0000A5004 /* Portfolio.png */,
+				DF8EE9231AEA16B0000A5004 /* Knowledge.png */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -252,14 +258,15 @@
 			files = (
 				DF5E12731ADE6AED005D036A /* Main.storyboard in Resources */,
 				DF5E12781ADE6AED005D036A /* LaunchScreen.xib in Resources */,
-				DF9171A61AE8A2BE006FB977 /* Contact.png in Resources */,
-				DF9171A71AE8A2BE006FB977 /* Knowledge.png in Resources */,
 				DF91719E1AE88894006FB977 /* navbarBackground.png in Resources */,
+				DF8EE92B1AEA22D4000A5004 /* HamburgerTableViewCell.xib in Resources */,
+				DF8EE9271AEA16B0000A5004 /* Knowledge.png in Resources */,
 				DF91719B1AE88637006FB977 /* menuicon@2x.png in Resources */,
-				DF9171A41AE8A2BE006FB977 /* Traits.png in Resources */,
+				DF8EE9241AEA16B0000A5004 /* Traits.png in Resources */,
 				DF91719A1AE88637006FB977 /* menuicon@1x.png in Resources */,
+				DF8EE9261AEA16B0000A5004 /* Portfolio.png in Resources */,
+				DF8EE9251AEA16B0000A5004 /* Contact.png in Resources */,
 				DF91719C1AE88637006FB977 /* menuicon@3x.png in Resources */,
-				DF9171A51AE8A2BE006FB977 /* Portfolio.png in Resources */,
 				DF5E12751ADE6AED005D036A /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -314,6 +321,7 @@
 				DF5E12701ADE6AED005D036A /* ViewController.swift in Sources */,
 				DF2E038F1AE6F87C009C0A5D /* MenuViewController.swift in Sources */,
 				DF5E126E1ADE6AED005D036A /* AppDelegate.swift in Sources */,
+				DFA3F5721AEA328B0087E0E7 /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

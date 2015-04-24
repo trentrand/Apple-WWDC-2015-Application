@@ -12,17 +12,25 @@ class MenuViewController: UIViewController, UITableViewDataSource, UITableViewDe
     
     @IBOutlet var tableView: UITableView?
     var tableViewContent: [String] = ["Traits", "Knowledge", "Portfolio", "Contact"]
-    let cellIdentifier = "cellIdentifier"
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         // Do any additional setup after loading the view, typically from a nib.
         self.navigationController?.setNavigationBarHidden(false, animated: true)
         
         self.tableView!.separatorStyle = UITableViewCellSeparatorStyle.None;
         self.tableView!.backgroundColor = UIColor.clearColor()
         self.tableView!.reloadData()
+        
+        
+        var nib = UINib(nibName: "HamburgerTableViewCell", bundle: nil)
+        tableView!.registerNib(nib, forCellReuseIdentifier: "customCell")
+        
+        self.createBlur(effectStyle: UIBlurEffectStyle.Light)
     }
+    
+    
     
     func numberOfSectionsInTableView(tableView: UITableView) -> Int {
         return 1
@@ -41,23 +49,10 @@ class MenuViewController: UIViewController, UITableViewDataSource, UITableViewDe
     }
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        var cell: UITableViewCell = tableView.dequeueReusableCellWithIdentifier(cellIdentifier, forIndexPath: indexPath) as! UITableViewCell
-        if (cell.isEqual(nil)) {
-            cell = UITableViewCell(style: UITableViewCellStyle.Default, reuseIdentifier: cellIdentifier)
-        }
+        var cell = self.tableView!.dequeueReusableCellWithIdentifier("customCell") as! HamburgerTableViewCell
+        cell.loadItem(title: tableViewContent[indexPath.row], image: tableViewContent[indexPath.row])
         
-        cell.textLabel!.text = tableViewContent[indexPath.row]
-        
-        var currentFont: UIFont = cell.textLabel!.font
-        var correctFont = UIFont(name: "Avenir-Medium", size: currentFont.pointSize+5)
-        cell.textLabel!.font = correctFont
-        
-        cell.textLabel!.textColor = UIColor.whiteColor()
-        cell.imageView!.image = UIImage(named: tableViewContent[indexPath.row] as String)
-        cell.contentView.backgroundColor = UIColor.clearColor()
-        cell.selectionStyle = UITableViewCellSelectionStyle.None
-        
-        return cell;
+        return cell
 
     }
     
@@ -73,5 +68,16 @@ class MenuViewController: UIViewController, UITableViewDataSource, UITableViewDe
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+   
+}
+
+class HamburgerTableViewCell: UITableViewCell {
+    @IBOutlet var backgroundImage: UIImageView!
+    @IBOutlet var titleLabel: UILabel!
+    
+    func loadItem(#title: String, image: String) {
+        backgroundImage.image = UIImage(named: image)
+        titleLabel.text = title
     }
 }
