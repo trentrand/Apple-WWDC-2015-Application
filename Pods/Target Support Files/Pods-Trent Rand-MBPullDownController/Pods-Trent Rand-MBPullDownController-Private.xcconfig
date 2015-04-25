@@ -1,0 +1,5 @@
+#include "Pods-Trent Rand-MBPullDownController.xcconfig"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers/Build" "${PODS_ROOT}/Headers/Build/MBPullDownController" "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/MBPullDownController" "${PODS_ROOT}/Headers/Public/SlideMenu3D"
+OTHER_LDFLAGS = ${PODS_TRENT_RAND_MBPULLDOWNCONTROLLER_OTHER_LDFLAGS} -ObjC
+PODS_ROOT = ${SRCROOT}

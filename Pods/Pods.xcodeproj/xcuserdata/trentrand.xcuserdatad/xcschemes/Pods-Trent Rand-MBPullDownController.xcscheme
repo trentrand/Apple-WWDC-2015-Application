@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "7612F88466F0D82032B8E728"
-               BuildableName = "libPods-Trent Rand.a"
-               BlueprintName = "Pods-Trent Rand"
+               BlueprintIdentifier = "1B6AF0B38EEC52A8B6553084"
+               BuildableName = "libPods-Trent Rand-MBPullDownController.a"
+               BlueprintName = "Pods-Trent Rand-MBPullDownController"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>

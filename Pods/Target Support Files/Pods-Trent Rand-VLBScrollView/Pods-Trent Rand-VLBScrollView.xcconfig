@@ -1,1 +1,0 @@
-PODS_TRENT_RAND_VLBSCROLLVIEW_OTHER_LDFLAGS = -framework "CoreGraphics" -framework "Foundation" -framework "UIKit"

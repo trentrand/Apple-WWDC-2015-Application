@@ -3,7 +3,7 @@
 
 target 'Trent Rand' do
 pod "SlideMenu3D"
-pod "VLBScrollView"
+pod 'MBPullDownController', '~> 1.0'
 end
 
 target 'Trent RandTests' do

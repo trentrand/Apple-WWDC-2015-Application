@@ -1,6 +1,6 @@
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
-HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/CocoaLumberjack" "${PODS_ROOT}/Headers/Public/SlideMenu3D" "${PODS_ROOT}/Headers/Public/VLBFoundation" "${PODS_ROOT}/Headers/Public/VLBScrollView"
-OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/CocoaLumberjack" -isystem "${PODS_ROOT}/Headers/Public/SlideMenu3D" -isystem "${PODS_ROOT}/Headers/Public/VLBFoundation" -isystem "${PODS_ROOT}/Headers/Public/VLBScrollView"
-OTHER_LDFLAGS = -ObjC -l"Pods-Trent Rand-CocoaLumberjack" -l"Pods-Trent Rand-SlideMenu3D" -l"Pods-Trent Rand-VLBFoundation" -l"Pods-Trent Rand-VLBScrollView" -framework "CoreGraphics" -framework "Foundation" -framework "UIKit"
+HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/MBPullDownController" "${PODS_ROOT}/Headers/Public/SlideMenu3D"
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/MBPullDownController" -isystem "${PODS_ROOT}/Headers/Public/SlideMenu3D"
+OTHER_LDFLAGS = -ObjC -l"Pods-Trent Rand-MBPullDownController" -l"Pods-Trent Rand-SlideMenu3D" -framework "QuartzCore"
 OTHER_LIBTOOLFLAGS = $(OTHER_LDFLAGS)
 PODS_ROOT = ${SRCROOT}/Pods

@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DF032AE01AEAD715009589FC /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF032ADF1AEAD715009589FC /* ProfileViewController.swift */; };
+		DF032AE21AEAD74C009589FC /* TraitsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF032AE11AEAD74C009589FC /* TraitsViewController.swift */; };
+		DF032AE41AEAE24E009589FC /* ProfileImage.png in Resources */ = {isa = PBXBuildFile; fileRef = DF032AE31AEAE24E009589FC /* ProfileImage.png */; };
 		DF2E038F1AE6F87C009C0A5D /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2E038E1AE6F87C009C0A5D /* MenuViewController.swift */; };
 		DF5A42BD1AE817100054D6CF /* libPods-Trent Rand.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DF5A42BC1AE817100054D6CF /* libPods-Trent Rand.a */; };
 		DF5E126E1ADE6AED005D036A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5E126D1ADE6AED005D036A /* AppDelegate.swift */; };
@@ -25,6 +28,9 @@
 		DF91719C1AE88637006FB977 /* menuicon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = DF9171991AE88637006FB977 /* menuicon@3x.png */; };
 		DF91719E1AE88894006FB977 /* navbarBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = DF91719D1AE88894006FB977 /* navbarBackground.png */; };
 		DFA3F5721AEA328B0087E0E7 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA3F5711AEA328B0087E0E7 /* Extensions.swift */; };
+		DFA3F5741AEAB8BE0087E0E7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFA3F5731AEAB8BE0087E0E7 /* Foundation.framework */; };
+		DFA3F5761AEAB8C40087E0E7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFA3F5751AEAB8C40087E0E7 /* UIKit.framework */; };
+		DFA3F5781AEAB8CB0087E0E7 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFA3F5771AEAB8CB0087E0E7 /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +47,9 @@
 		4A24A73159C9EF95264891B6 /* Pods-Trent Rand.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Trent Rand.release.xcconfig"; path = "Pods/Target Support Files/Pods-Trent Rand/Pods-Trent Rand.release.xcconfig"; sourceTree = "<group>"; };
 		545DE7F3C59E5A6ED719B027 /* Pods-Trent Rand.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Trent Rand.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Trent Rand/Pods-Trent Rand.debug.xcconfig"; sourceTree = "<group>"; };
 		98672CD55AE5981E429F0D65 /* libPods-Trent Rand.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Trent Rand.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF032ADF1AEAD715009589FC /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		DF032AE11AEAD74C009589FC /* TraitsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TraitsViewController.swift; sourceTree = "<group>"; };
+		DF032AE31AEAE24E009589FC /* ProfileImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ProfileImage.png; sourceTree = "<group>"; };
 		DF2E038B1AE6F7A3009C0A5D /* Trent Rand-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Trent Rand-Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
 		DF2E038E1AE6F87C009C0A5D /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		DF5A42BC1AE817100054D6CF /* libPods-Trent Rand.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-Trent Rand.a"; path = "Pods/build/Debug-iphoneos/libPods-Trent Rand.a"; sourceTree = "<group>"; };
@@ -64,6 +73,9 @@
 		DF9171991AE88637006FB977 /* menuicon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menuicon@3x.png"; sourceTree = "<group>"; };
 		DF91719D1AE88894006FB977 /* navbarBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = navbarBackground.png; sourceTree = "<group>"; };
 		DFA3F5711AEA328B0087E0E7 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		DFA3F5731AEAB8BE0087E0E7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DFA3F5751AEAB8C40087E0E7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DFA3F5771AEAB8CB0087E0E7 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +83,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DFA3F5781AEAB8CB0087E0E7 /* QuartzCore.framework in Frameworks */,
+				DFA3F5761AEAB8C40087E0E7 /* UIKit.framework in Frameworks */,
+				DFA3F5741AEAB8BE0087E0E7 /* Foundation.framework in Frameworks */,
 				DF5A42BD1AE817100054D6CF /* libPods-Trent Rand.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -97,6 +112,9 @@
 		5C845EF3D81DFB55C0B4DECC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				DFA3F5771AEAB8CB0087E0E7 /* QuartzCore.framework */,
+				DFA3F5751AEAB8C40087E0E7 /* UIKit.framework */,
+				DFA3F5731AEAB8BE0087E0E7 /* Foundation.framework */,
 				DF5A42BC1AE817100054D6CF /* libPods-Trent Rand.a */,
 				98672CD55AE5981E429F0D65 /* libPods-Trent Rand.a */,
 			);
@@ -132,6 +150,8 @@
 				DF5E126D1ADE6AED005D036A /* AppDelegate.swift */,
 				DF5E126F1ADE6AED005D036A /* ViewController.swift */,
 				DF2E038E1AE6F87C009C0A5D /* MenuViewController.swift */,
+				DF032ADF1AEAD715009589FC /* ProfileViewController.swift */,
+				DF032AE11AEAD74C009589FC /* TraitsViewController.swift */,
 				DFA3F5711AEA328B0087E0E7 /* Extensions.swift */,
 				DF2E038B1AE6F7A3009C0A5D /* Trent Rand-Bridging-Header.h */,
 				DF5E12741ADE6AED005D036A /* Images.xcassets */,
@@ -143,6 +163,7 @@
 		DF5E126B1ADE6AED005D036A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				DF032AE31AEAE24E009589FC /* ProfileImage.png */,
 				DF91719D1AE88894006FB977 /* navbarBackground.png */,
 				DF9171971AE88637006FB977 /* menuicon@1x.png */,
 				DF9171981AE88637006FB977 /* menuicon@2x.png */,
@@ -257,6 +278,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DF5E12731ADE6AED005D036A /* Main.storyboard in Resources */,
+				DF032AE41AEAE24E009589FC /* ProfileImage.png in Resources */,
 				DF5E12781ADE6AED005D036A /* LaunchScreen.xib in Resources */,
 				DF91719E1AE88894006FB977 /* navbarBackground.png in Resources */,
 				DF8EE92B1AEA22D4000A5004 /* HamburgerTableViewCell.xib in Resources */,
@@ -320,8 +342,10 @@
 			files = (
 				DF5E12701ADE6AED005D036A /* ViewController.swift in Sources */,
 				DF2E038F1AE6F87C009C0A5D /* MenuViewController.swift in Sources */,
+				DF032AE01AEAD715009589FC /* ProfileViewController.swift in Sources */,
 				DF5E126E1ADE6AED005D036A /* AppDelegate.swift in Sources */,
 				DFA3F5721AEA328B0087E0E7 /* Extensions.swift in Sources */,
+				DF032AE21AEAD74C009589FC /* TraitsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

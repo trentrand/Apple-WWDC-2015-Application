@@ -1,19 +1,13 @@
 PODS:
-  - CocoaLumberjack (1.6.2)
+  - MBPullDownController (1.1.1)
   - SlideMenu3D (0.1.1)
-  - VLBFoundation (1.0)
-  - VLBScrollView (1.0):
-    - CocoaLumberjack (= 1.6.2)
-    - VLBFoundation
 
 DEPENDENCIES:
+  - MBPullDownController (~> 1.0)
   - SlideMenu3D
-  - VLBScrollView
 
 SPEC CHECKSUMS:
-  CocoaLumberjack: 38fa640b1467deaf665b3f7b3b08f837b55c9660
+  MBPullDownController: 6e5ee6fa099f2283cc207b3d2fa5c4867c652258
   SlideMenu3D: e3bf0771412404ab01c1437fe91f9c68ce39faba
-  VLBFoundation: af522a9bc9fc7d873a404e146de351178446ca13
-  VLBScrollView: 9c485eb1b3a6b51ef678793c4de15de6432ffcb9
 
 COCOAPODS: 0.35.0

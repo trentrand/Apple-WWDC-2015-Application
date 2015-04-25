@@ -33,3 +33,12 @@ extension UITableViewController {
         }
     }
 }
+
+extension UILabel {
+    func addBottomBorderWithColor(color: UIColor, borderWidth: CGFloat) {
+        var border = CALayer(layer: layer)
+        border.backgroundColor = color.CGColor
+        border.frame = CGRectMake(0, self.frame.size.height - borderWidth, self.frame.size.width - 285, borderWidth)
+        self.layer.addSublayer(border)
+    }
+}

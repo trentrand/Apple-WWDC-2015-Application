@@ -8,13 +8,16 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: MBPullDownController {
 
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         self.navigationController?.setNavigationBarHidden(false, animated: true)
+        
+        self.frontController = storyboard?.instantiateViewControllerWithIdentifier("traitsVC") as! UIViewController
+        self.backController = storyboard?.instantiateViewControllerWithIdentifier("profileVC") as! UIViewController
     }
 
     override func didReceiveMemoryWarning() {
