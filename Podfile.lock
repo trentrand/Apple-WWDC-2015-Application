@@ -1,0 +1,13 @@
+PODS:
+  - MBPullDownController (1.1.1)
+  - SlideMenu3D (0.1.1)
+
+DEPENDENCIES:
+  - MBPullDownController (~> 1.0)
+  - SlideMenu3D
+
+SPEC CHECKSUMS:
+  MBPullDownController: 6e5ee6fa099f2283cc207b3d2fa5c4867c652258
+  SlideMenu3D: e3bf0771412404ab01c1437fe91f9c68ce39faba
+
+COCOAPODS: 0.35.0

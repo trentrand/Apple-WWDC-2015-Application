@@ -9,7 +9,7 @@
 import Foundation
 
 extension UIViewController {
-    func createBlur(effectStyle: UIBlurEffectStyle = .Light) {
+    func createBlur(effectStyle: UIBlurEffectStyle = .Light, index: Int) {
         if !UIAccessibilityIsReduceTransparencyEnabled() {
             view.backgroundColor = UIColor.clearColor()
             
@@ -17,13 +17,13 @@ extension UIViewController {
             blurView.autoresizingMask = UIViewAutoresizing.FlexibleHeight | UIViewAutoresizing.FlexibleWidth
             blurView.frame = view.bounds
                         
-            view.insertSubview(blurView, atIndex: 0)
+            view.insertSubview(blurView, atIndex: index)
         }
     }
 }
 
 extension UITableViewController {
-    override func createBlur(effectStyle: UIBlurEffectStyle = UIBlurEffectStyle.ExtraLight) {
+    func createBlur(effectStyle: UIBlurEffectStyle = UIBlurEffectStyle.ExtraLight) {
         if !UIAccessibilityIsReduceTransparencyEnabled() {
             tableView.backgroundColor = UIColor.clearColor()
             

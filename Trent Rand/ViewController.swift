@@ -9,7 +9,6 @@
 import UIKit
 
 class ViewController: MBPullDownController {
-
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -18,6 +17,12 @@ class ViewController: MBPullDownController {
         
         self.frontController = storyboard?.instantiateViewControllerWithIdentifier("traitsVC") as! UIViewController
         self.backController = storyboard?.instantiateViewControllerWithIdentifier("profileVC") as! UIViewController
+        
+        self.openBottomOffset = 0
+        
+        self.open = true
+        
+        self.createBlur(effectStyle: UIBlurEffectStyle.Dark, index: 0)
     }
 
     override func didReceiveMemoryWarning() {
@@ -27,6 +32,10 @@ class ViewController: MBPullDownController {
 
     @IBAction func hamburgerPressed(sender: AnyObject) {
         AppDelegate.mainDelegate().slideMenuVC.toggleMenu()
+    }
+    
+    class func pullDownController() -> ViewController {
+        return self as! ViewController
     }
 
 }

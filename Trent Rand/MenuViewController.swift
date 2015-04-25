@@ -11,7 +11,8 @@ import UIKit
 class MenuViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
     
     @IBOutlet var tableView: UITableView?
-    var tableViewContent: [String] = ["Traits", "Knowledge", "Portfolio", "Contact"]
+    
+    var tableViewContent: [String] = ["TrentRand.com", "GitHub", "Apple Support", "Facebook"]
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -27,7 +28,7 @@ class MenuViewController: UIViewController, UITableViewDataSource, UITableViewDe
         var nib = UINib(nibName: "HamburgerTableViewCell", bundle: nil)
         tableView!.registerNib(nib, forCellReuseIdentifier: "customCell")
         
-        self.createBlur(effectStyle: UIBlurEffectStyle.Light)
+        self.createBlur(effectStyle: UIBlurEffectStyle.Light, index: 0)
     }
     
     
@@ -41,7 +42,7 @@ class MenuViewController: UIViewController, UITableViewDataSource, UITableViewDe
     }
 
     func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
-        return 80
+        return 45
     }
 
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
