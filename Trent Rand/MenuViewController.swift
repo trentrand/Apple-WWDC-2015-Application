@@ -28,6 +28,14 @@ class MenuViewController: UIViewController, UITableViewDataSource, UITableViewDe
         var nib = UINib(nibName: "HamburgerTableViewCell", bundle: nil)
         tableView!.registerNib(nib, forCellReuseIdentifier: "customCell")
         
+        if (tableView!.contentSize.height < tableView!.frame.size.height) {
+            tableView!.scrollEnabled = false
+        }
+        else {
+            tableView!.scrollEnabled = true
+        }
+
+        
         self.createBlur(effectStyle: UIBlurEffectStyle.Light, index: 0)
     }
     
@@ -63,6 +71,19 @@ class MenuViewController: UIViewController, UITableViewDataSource, UITableViewDe
     
     func tableView(tableView: UITableView, willSelectRowAtIndexPath indexPath: NSIndexPath) -> NSIndexPath? {
         // Implement click listener here
+        switch indexPath.row {
+        case 0:
+            UIApplication.sharedApplication().openURL(NSURL(string: "http://www.TrentRand.com/")!)
+        case 1:
+            UIApplication.sharedApplication().openURL(NSURL(string: "https://github.com/trentrand")!)
+        case 2:
+            UIApplication.sharedApplication().openURL(NSURL(string: "https://discussions.apple.com/people/TrentRand")!)
+        case 3:
+            UIApplication.sharedApplication().openURL(NSURL(string: "https://www.facebook.com/trent.rand")!)
+        default:
+            NSLog("switch statement broke! check func tableViewwillSelectRowAtIndexPath in MenuViewController")
+        }
+        
         return nil
     }
     

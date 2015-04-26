@@ -176,7 +176,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="pbK-V4-yJX">
-                                <rect key="frame" x="0.0" y="40" width="600" height="540"/>
+                                <rect key="frame" x="0.0" y="80" width="600" height="540"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <color key="sectionIndexBackgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <color key="sectionIndexTrackingBackgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
@@ -197,9 +197,9 @@
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstAttribute="trailingMargin" secondItem="pbK-V4-yJX" secondAttribute="trailing" constant="-16" id="1hO-QL-lVv"/>
-                            <constraint firstItem="pbK-V4-yJX" firstAttribute="top" secondItem="fSG-cc-oAE" secondAttribute="bottom" constant="20" id="EGE-5A-OEL"/>
+                            <constraint firstItem="pbK-V4-yJX" firstAttribute="top" secondItem="fSG-cc-oAE" secondAttribute="bottom" constant="60" id="EGE-5A-OEL"/>
                             <constraint firstItem="pbK-V4-yJX" firstAttribute="leading" secondItem="5iC-eu-n7R" secondAttribute="leadingMargin" constant="-16" id="NnR-c5-Rze"/>
-                            <constraint firstItem="aYP-wg-ohf" firstAttribute="top" secondItem="pbK-V4-yJX" secondAttribute="bottom" constant="20" id="NxX-W1-miB"/>
+                            <constraint firstItem="aYP-wg-ohf" firstAttribute="top" secondItem="pbK-V4-yJX" secondAttribute="bottom" constant="-20" id="NxX-W1-miB"/>
                         </constraints>
                     </view>
                     <connections>
