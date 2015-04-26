@@ -33,6 +33,10 @@
 		DFA04FB01AEC5CEA0059C39C /* Portfolio.png in Resources */ = {isa = PBXBuildFile; fileRef = DFA04FA71AEC5CEA0059C39C /* Portfolio.png */; };
 		DFA04FB11AEC5CEA0059C39C /* Traits.png in Resources */ = {isa = PBXBuildFile; fileRef = DFA04FA81AEC5CEA0059C39C /* Traits.png */; };
 		DFA04FB21AEC5CEA0059C39C /* TrentRand.com.png in Resources */ = {isa = PBXBuildFile; fileRef = DFA04FA91AEC5CEA0059C39C /* TrentRand.com.png */; };
+		DFA04FB41AED66410059C39C /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA04FB31AED66410059C39C /* AboutViewController.swift */; };
+		DFA04FB61AED66680059C39C /* KnowledgeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA04FB51AED66680059C39C /* KnowledgeViewController.swift */; };
+		DFA04FB81AED667E0059C39C /* PortfolioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA04FB71AED667E0059C39C /* PortfolioViewController.swift */; };
+		DFA04FBA1AED66920059C39C /* ContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA04FB91AED66920059C39C /* ContactViewController.swift */; };
 		DFA3F5721AEA328B0087E0E7 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA3F5711AEA328B0087E0E7 /* Extensions.swift */; };
 		DFA3F5741AEAB8BE0087E0E7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFA3F5731AEAB8BE0087E0E7 /* Foundation.framework */; };
 		DFA3F5761AEAB8C40087E0E7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFA3F5751AEAB8C40087E0E7 /* UIKit.framework */; };
@@ -84,6 +88,10 @@
 		DFA04FA71AEC5CEA0059C39C /* Portfolio.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Portfolio.png; sourceTree = "<group>"; };
 		DFA04FA81AEC5CEA0059C39C /* Traits.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Traits.png; sourceTree = "<group>"; };
 		DFA04FA91AEC5CEA0059C39C /* TrentRand.com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TrentRand.com.png; sourceTree = "<group>"; };
+		DFA04FB31AED66410059C39C /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		DFA04FB51AED66680059C39C /* KnowledgeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KnowledgeViewController.swift; sourceTree = "<group>"; };
+		DFA04FB71AED667E0059C39C /* PortfolioViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PortfolioViewController.swift; sourceTree = "<group>"; };
+		DFA04FB91AED66920059C39C /* ContactViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactViewController.swift; sourceTree = "<group>"; };
 		DFA3F5711AEA328B0087E0E7 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		DFA3F5731AEAB8BE0087E0E7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		DFA3F5751AEAB8C40087E0E7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -165,6 +173,10 @@
 				DF2E038E1AE6F87C009C0A5D /* MenuViewController.swift */,
 				DF032ADF1AEAD715009589FC /* ProfileViewController.swift */,
 				DF032AE11AEAD74C009589FC /* TraitsViewController.swift */,
+				DFA04FB31AED66410059C39C /* AboutViewController.swift */,
+				DFA04FB51AED66680059C39C /* KnowledgeViewController.swift */,
+				DFA04FB71AED667E0059C39C /* PortfolioViewController.swift */,
+				DFA04FB91AED66920059C39C /* ContactViewController.swift */,
 				DFA3F5711AEA328B0087E0E7 /* Extensions.swift */,
 				DF2E038B1AE6F7A3009C0A5D /* Trent Rand-Bridging-Header.h */,
 				DF5E12741ADE6AED005D036A /* Images.xcassets */,
@@ -365,11 +377,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				DF5E12701ADE6AED005D036A /* ViewController.swift in Sources */,
+				DFA04FB81AED667E0059C39C /* PortfolioViewController.swift in Sources */,
 				DF2E038F1AE6F87C009C0A5D /* MenuViewController.swift in Sources */,
 				DF032AE01AEAD715009589FC /* ProfileViewController.swift in Sources */,
+				DFA04FB41AED66410059C39C /* AboutViewController.swift in Sources */,
 				DF5E126E1ADE6AED005D036A /* AppDelegate.swift in Sources */,
 				DFA3F5721AEA328B0087E0E7 /* Extensions.swift in Sources */,
 				DF032AE21AEAD74C009589FC /* TraitsViewController.swift in Sources */,
+				DFA04FB61AED66680059C39C /* KnowledgeViewController.swift in Sources */,
+				DFA04FBA1AED66920059C39C /* ContactViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

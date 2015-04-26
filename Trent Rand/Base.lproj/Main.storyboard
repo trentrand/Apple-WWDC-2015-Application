@@ -145,6 +145,98 @@
             </objects>
             <point key="canvasLocation" x="2806" y="1410"/>
         </scene>
+        <!--Knowledge View Controller-->
+        <scene sceneID="RHk-ba-yVq">
+            <objects>
+                <viewController storyboardIdentifier="knowledgeVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="86b-Q3-Eza" customClass="KnowledgeViewController" customModule="Trent_Rand" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="0sp-QQ-kQh"/>
+                        <viewControllerLayoutGuide type="bottom" id="cqS-3F-YqB"/>
+                    </layoutGuides>
+                    <scrollView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" id="6g1-hE-TAP">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yoM-gT-DVC">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <color key="backgroundColor" red="0.29895332759999999" green="0.64123472839999995" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                        </subviews>
+                    </scrollView>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ofq-Vy-pT0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2806" y="2154"/>
+        </scene>
+        <!--Portfolio View Controller-->
+        <scene sceneID="iGH-mC-MUL">
+            <objects>
+                <viewController storyboardIdentifier="portfolioVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="K6a-Dc-wJN" customClass="PortfolioViewController" customModule="Trent_Rand" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="pHf-R5-c3A"/>
+                        <viewControllerLayoutGuide type="bottom" id="wop-3O-eIH"/>
+                    </layoutGuides>
+                    <scrollView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" id="a4B-eG-q0N">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="iSD-VT-k4H">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.93333333330000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
+                        </subviews>
+                    </scrollView>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="44o-6N-Ehe" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3479" y="2154"/>
+        </scene>
+        <!--Contact View Controller-->
+        <scene sceneID="9dN-Bp-lk8">
+            <objects>
+                <viewController storyboardIdentifier="contactVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="gIO-Ur-N4g" customClass="ContactViewController" customModule="Trent_Rand" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="HsM-em-zTk"/>
+                        <viewControllerLayoutGuide type="bottom" id="37u-I1-oNU"/>
+                    </layoutGuides>
+                    <scrollView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" id="rsK-Ol-QMd">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="unC-ug-q5R">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <color key="backgroundColor" red="0.45098039220000002" green="0.56862745100000001" blue="0.69411764710000001" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                        </subviews>
+                    </scrollView>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5bL-Of-918" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4152" y="2154"/>
+        </scene>
+        <!--About View Controller-->
+        <scene sceneID="WeC-hl-GHN">
+            <objects>
+                <viewController storyboardIdentifier="aboutVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="SaB-Jh-bfF" customClass="AboutViewController" customModule="Trent_Rand" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="cQZ-rL-ahZ"/>
+                        <viewControllerLayoutGuide type="bottom" id="jxi-Nl-pnu"/>
+                    </layoutGuides>
+                    <scrollView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" id="Bco-hO-O1l">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lRW-Ad-ZhF">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <color key="backgroundColor" red="0.95294117649999999" green="0.61176470589999998" blue="0.070588235289999995" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                        </subviews>
+                    </scrollView>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jUC-tZ-jmZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3479" y="1410"/>
+        </scene>
         <!--Traits View Controller-->
         <scene sceneID="1fZ-o4-lQE">
             <objects>
@@ -153,15 +245,21 @@
                         <viewControllerLayoutGuide type="top" id="oIR-Al-Yx4"/>
                         <viewControllerLayoutGuide type="bottom" id="Aa7-YK-l4z"/>
                     </layoutGuides>
-                    <scrollView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="iwF-K5-kbY">
+                    <scrollView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" id="iwF-K5-kbY">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Geo-Jy-0ez">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
                     </scrollView>
                     <nil key="simulatedStatusBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Tq4-0E-Cpg" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2806" y="2140"/>
+            <point key="canvasLocation" x="4152" y="1410"/>
         </scene>
         <!--Menu View Controller-->
         <scene sceneID="GWe-ce-vrZ">

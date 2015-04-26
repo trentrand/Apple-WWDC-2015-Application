@@ -70,6 +70,28 @@ class ProfileViewController: UIViewController, UITableViewDelegate, UITableViewD
     
     func tableView(tableView: UITableView, willSelectRowAtIndexPath indexPath: NSIndexPath) -> NSIndexPath? {
         // Implement click listener here
+        switch indexPath.row {
+        case 0:
+            self.pullDownController.frontController = storyboard?.instantiateViewControllerWithIdentifier("aboutVC") as! UIViewController
+        
+        case 1:
+            self.pullDownController.frontController = storyboard?.instantiateViewControllerWithIdentifier("traitsVC") as! UIViewController
+
+        case 2:
+            self.pullDownController.frontController = storyboard?.instantiateViewControllerWithIdentifier("knowledgeVC") as! UIViewController
+
+        case 3:
+            self.pullDownController.frontController = storyboard?.instantiateViewControllerWithIdentifier("portfolioVC") as! UIViewController
+
+        case 4:
+            self.pullDownController.frontController = storyboard?.instantiateViewControllerWithIdentifier("contactVC") as! UIViewController
+
+        default:
+            NSLog("switch statement broke! check func tableViewwillSelectRowAtIndexPath in ProfileViewController")
+        }
+        
+        self.pullDownController.setOpen(false, animated: true)
+        
         return nil
     }
 

@@ -20,7 +20,7 @@ class ViewController: MBPullDownController {
         
         self.openBottomOffset = 0
         
-        self.open = true
+        self.setOpen(true, animated: false)
         
         self.createBlur(effectStyle: UIBlurEffectStyle.Dark, index: 0)
     }
@@ -32,11 +32,7 @@ class ViewController: MBPullDownController {
 
     @IBAction func hamburgerPressed(sender: AnyObject) {
         AppDelegate.mainDelegate().slideMenuVC.toggleMenu()
-    }
     
-    class func pullDownController() -> ViewController {
-        return self as! ViewController
     }
-
 }
 
