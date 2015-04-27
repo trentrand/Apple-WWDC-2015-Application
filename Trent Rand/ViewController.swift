@@ -19,6 +19,7 @@ class ViewController: MBPullDownController {
         self.backController = storyboard?.instantiateViewControllerWithIdentifier("profileVC") as! UIViewController
         
         self.openBottomOffset = 0
+        self.closedTopOffset = 0
         
         self.setOpen(true, animated: false)
         

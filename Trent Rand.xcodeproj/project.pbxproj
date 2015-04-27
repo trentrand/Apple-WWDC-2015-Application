@@ -10,6 +10,11 @@
 		DF032AE01AEAD715009589FC /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF032ADF1AEAD715009589FC /* ProfileViewController.swift */; };
 		DF032AE21AEAD74C009589FC /* TraitsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF032AE11AEAD74C009589FC /* TraitsViewController.swift */; };
 		DF032AE41AEAE24E009589FC /* ProfileImage.png in Resources */ = {isa = PBXBuildFile; fileRef = DF032AE31AEAE24E009589FC /* ProfileImage.png */; };
+		DF29AE301AED915C008A4D54 /* TraitsChildViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF29AE2F1AED915C008A4D54 /* TraitsChildViewController.swift */; };
+		DF29AE341AED9B6C008A4D54 /* AboutPicture.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF29AE331AED9B6C008A4D54 /* AboutPicture.jpg */; };
+		DF29AE361AED9FE2008A4D54 /* KnowledgeChildViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF29AE351AED9FE2008A4D54 /* KnowledgeChildViewController.swift */; };
+		DF29AE381AEDA00C008A4D54 /* PortfolioChildViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF29AE371AEDA00C008A4D54 /* PortfolioChildViewController.swift */; };
+		DF29AE3A1AEDA64F008A4D54 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF29AE391AEDA64F008A4D54 /* MapKit.framework */; };
 		DF2E038F1AE6F87C009C0A5D /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2E038E1AE6F87C009C0A5D /* MenuViewController.swift */; };
 		DF5A42BD1AE817100054D6CF /* libPods-Trent Rand.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DF5A42BC1AE817100054D6CF /* libPods-Trent Rand.a */; };
 		DF5E126E1ADE6AED005D036A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5E126D1ADE6AED005D036A /* AppDelegate.swift */; };
@@ -23,6 +28,8 @@
 		DF91719B1AE88637006FB977 /* menuicon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DF9171981AE88637006FB977 /* menuicon@2x.png */; };
 		DF91719C1AE88637006FB977 /* menuicon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = DF9171991AE88637006FB977 /* menuicon@3x.png */; };
 		DF91719E1AE88894006FB977 /* navbarBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = DF91719D1AE88894006FB977 /* navbarBackground.png */; };
+		DF9BD1171AEDB15C00F20E64 /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF9BD1161AEDB15C00F20E64 /* background.jpg */; };
+		DF9BD11B1AEDB22000F20E64 /* fontawesome-webfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DF9BD11A1AEDB22000F20E64 /* fontawesome-webfont.ttf */; };
 		DFA04F901AEC2EB60059C39C /* ProfileTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DFA04F8F1AEC2EB60059C39C /* ProfileTableViewCell.xib */; };
 		DFA04FAA1AEC5CEA0059C39C /* About.png in Resources */ = {isa = PBXBuildFile; fileRef = DFA04FA11AEC5CEA0059C39C /* About.png */; };
 		DFA04FAB1AEC5CEA0059C39C /* Apple Support.png in Resources */ = {isa = PBXBuildFile; fileRef = DFA04FA21AEC5CEA0059C39C /* Apple Support.png */; };
@@ -60,6 +67,11 @@
 		DF032ADF1AEAD715009589FC /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		DF032AE11AEAD74C009589FC /* TraitsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TraitsViewController.swift; sourceTree = "<group>"; };
 		DF032AE31AEAE24E009589FC /* ProfileImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ProfileImage.png; sourceTree = "<group>"; };
+		DF29AE2F1AED915C008A4D54 /* TraitsChildViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TraitsChildViewController.swift; sourceTree = "<group>"; };
+		DF29AE331AED9B6C008A4D54 /* AboutPicture.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = AboutPicture.jpg; sourceTree = "<group>"; };
+		DF29AE351AED9FE2008A4D54 /* KnowledgeChildViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KnowledgeChildViewController.swift; sourceTree = "<group>"; };
+		DF29AE371AEDA00C008A4D54 /* PortfolioChildViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PortfolioChildViewController.swift; sourceTree = "<group>"; };
+		DF29AE391AEDA64F008A4D54 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		DF2E038B1AE6F7A3009C0A5D /* Trent Rand-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Trent Rand-Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
 		DF2E038E1AE6F87C009C0A5D /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		DF5A42BC1AE817100054D6CF /* libPods-Trent Rand.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-Trent Rand.a"; path = "Pods/build/Debug-iphoneos/libPods-Trent Rand.a"; sourceTree = "<group>"; };
@@ -78,6 +90,8 @@
 		DF9171981AE88637006FB977 /* menuicon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menuicon@2x.png"; sourceTree = "<group>"; };
 		DF9171991AE88637006FB977 /* menuicon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menuicon@3x.png"; sourceTree = "<group>"; };
 		DF91719D1AE88894006FB977 /* navbarBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = navbarBackground.png; sourceTree = "<group>"; };
+		DF9BD1161AEDB15C00F20E64 /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpg; sourceTree = "<group>"; };
+		DF9BD11A1AEDB22000F20E64 /* fontawesome-webfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "fontawesome-webfont.ttf"; sourceTree = "<group>"; };
 		DFA04F8F1AEC2EB60059C39C /* ProfileTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProfileTableViewCell.xib; sourceTree = "<group>"; };
 		DFA04FA11AEC5CEA0059C39C /* About.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = About.png; sourceTree = "<group>"; };
 		DFA04FA21AEC5CEA0059C39C /* Apple Support.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Apple Support.png"; sourceTree = "<group>"; };
@@ -103,6 +117,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF29AE3A1AEDA64F008A4D54 /* MapKit.framework in Frameworks */,
 				DFA3F5781AEAB8CB0087E0E7 /* QuartzCore.framework in Frameworks */,
 				DFA3F5761AEAB8C40087E0E7 /* UIKit.framework in Frameworks */,
 				DFA3F5741AEAB8BE0087E0E7 /* Foundation.framework in Frameworks */,
@@ -132,6 +147,7 @@
 		5C845EF3D81DFB55C0B4DECC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				DF29AE391AEDA64F008A4D54 /* MapKit.framework */,
 				DFA3F5771AEAB8CB0087E0E7 /* QuartzCore.framework */,
 				DFA3F5751AEAB8C40087E0E7 /* UIKit.framework */,
 				DFA3F5731AEAB8BE0087E0E7 /* Foundation.framework */,
@@ -172,10 +188,13 @@
 				DF5E126F1ADE6AED005D036A /* ViewController.swift */,
 				DF2E038E1AE6F87C009C0A5D /* MenuViewController.swift */,
 				DF032ADF1AEAD715009589FC /* ProfileViewController.swift */,
-				DF032AE11AEAD74C009589FC /* TraitsViewController.swift */,
 				DFA04FB31AED66410059C39C /* AboutViewController.swift */,
+				DF032AE11AEAD74C009589FC /* TraitsViewController.swift */,
+				DF29AE2F1AED915C008A4D54 /* TraitsChildViewController.swift */,
 				DFA04FB51AED66680059C39C /* KnowledgeViewController.swift */,
+				DF29AE351AED9FE2008A4D54 /* KnowledgeChildViewController.swift */,
 				DFA04FB71AED667E0059C39C /* PortfolioViewController.swift */,
+				DF29AE371AEDA00C008A4D54 /* PortfolioChildViewController.swift */,
 				DFA04FB91AED66920059C39C /* ContactViewController.swift */,
 				DFA3F5711AEA328B0087E0E7 /* Extensions.swift */,
 				DF2E038B1AE6F7A3009C0A5D /* Trent Rand-Bridging-Header.h */,
@@ -188,7 +207,10 @@
 		DF5E126B1ADE6AED005D036A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				DF9BD11A1AEDB22000F20E64 /* fontawesome-webfont.ttf */,
 				DF032AE31AEAE24E009589FC /* ProfileImage.png */,
+				DF9BD1161AEDB15C00F20E64 /* background.jpg */,
+				DF29AE331AED9B6C008A4D54 /* AboutPicture.jpg */,
 				DF91719D1AE88894006FB977 /* navbarBackground.png */,
 				DF9171971AE88637006FB977 /* menuicon@1x.png */,
 				DF9171981AE88637006FB977 /* menuicon@2x.png */,
@@ -313,9 +335,12 @@
 				DF5E12731ADE6AED005D036A /* Main.storyboard in Resources */,
 				DF032AE41AEAE24E009589FC /* ProfileImage.png in Resources */,
 				DF5E12781ADE6AED005D036A /* LaunchScreen.xib in Resources */,
+				DF29AE341AED9B6C008A4D54 /* AboutPicture.jpg in Resources */,
 				DF91719E1AE88894006FB977 /* navbarBackground.png in Resources */,
 				DFA04FAC1AEC5CEA0059C39C /* Contact.png in Resources */,
+				DF9BD1171AEDB15C00F20E64 /* background.jpg in Resources */,
 				DF8EE92B1AEA22D4000A5004 /* HamburgerTableViewCell.xib in Resources */,
+				DF9BD11B1AEDB22000F20E64 /* fontawesome-webfont.ttf in Resources */,
 				DF91719B1AE88637006FB977 /* menuicon@2x.png in Resources */,
 				DFA04FB01AEC5CEA0059C39C /* Portfolio.png in Resources */,
 				DF91719A1AE88637006FB977 /* menuicon@1x.png in Resources */,
@@ -382,9 +407,12 @@
 				DF032AE01AEAD715009589FC /* ProfileViewController.swift in Sources */,
 				DFA04FB41AED66410059C39C /* AboutViewController.swift in Sources */,
 				DF5E126E1ADE6AED005D036A /* AppDelegate.swift in Sources */,
+				DF29AE381AEDA00C008A4D54 /* PortfolioChildViewController.swift in Sources */,
 				DFA3F5721AEA328B0087E0E7 /* Extensions.swift in Sources */,
 				DF032AE21AEAD74C009589FC /* TraitsViewController.swift in Sources */,
+				DF29AE361AED9FE2008A4D54 /* KnowledgeChildViewController.swift in Sources */,
 				DFA04FB61AED66680059C39C /* KnowledgeViewController.swift in Sources */,
+				DF29AE301AED915C008A4D54 /* TraitsChildViewController.swift in Sources */,
 				DFA04FBA1AED66920059C39C /* ContactViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
