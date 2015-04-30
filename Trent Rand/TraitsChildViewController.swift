@@ -28,7 +28,7 @@ class TraitsChildViewController: UIViewController {
         case 0:
             traitsTitle.text = "Personality"
             traitsLogo.text = ""
-            traitsDescription.text = "Having a great personality is crucial, so why would I be any different? I’m human too, and behind this page is a passionate person actively working to drive innovation."
+            traitsDescription.text = "Having a great personality is crucial, so why would I be any different? I’m human too, and behind this application is a passionate person actively working to drive innovation."
         case 1:
             traitsTitle.text = "Team Player"
             traitsLogo.text = ""
