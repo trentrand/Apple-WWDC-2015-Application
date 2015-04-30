@@ -30,6 +30,8 @@ class PortfolioViewController: UIViewController, UIPageViewControllerDataSource,
         self.view.addSubview(self.pageController.view)
         
         self.pageController.didMoveToParentViewController(self)
+        
+        self.createBlur(effectStyle: UIBlurEffectStyle.Light, index: 1)
     }
     
     override func didReceiveMemoryWarning() {
