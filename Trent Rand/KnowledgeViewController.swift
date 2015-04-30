@@ -20,6 +20,9 @@ class KnowledgeViewController: UIViewController, UIPageViewControllerDataSource,
         self.pageController.dataSource = self
         self.pageController.view.frame = self.view.bounds
         
+        UIPageControl.appearance().pageIndicatorTintColor = UIColor.darkGrayColor()
+        UIPageControl.appearance().currentPageIndicatorTintColor = UIColor.orangeColor()
+        
         var initialViewController: KnowledgeChildViewController = self.viewControllerAtIndex(0) as! KnowledgeChildViewController
         
         var viewControllers: Array = Array(arrayLiteral: initialViewController)
@@ -30,6 +33,8 @@ class KnowledgeViewController: UIViewController, UIPageViewControllerDataSource,
         self.view.addSubview(self.pageController.view)
         
         self.pageController.didMoveToParentViewController(self)
+        
+        self.createBlur(effectStyle: UIBlurEffectStyle.Light, index: 1)
     }
     
     override func didReceiveMemoryWarning() {
