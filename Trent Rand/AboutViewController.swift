@@ -14,6 +14,7 @@ class AboutViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         txtAbout.scrollRangeToVisible(NSRange(location:0, length:0))
+        self.createBlur(effectStyle: UIBlurEffectStyle.ExtraLight, index: 1)
     }
     
     override func didReceiveMemoryWarning() {
