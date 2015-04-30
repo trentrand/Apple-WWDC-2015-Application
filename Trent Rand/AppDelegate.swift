@@ -33,8 +33,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         self.slideMenuVC.menuViewController = menuVC as! MenuViewController
         self.slideMenuVC.mainViewController = navMain as! UINavigationController
         
-        self.slideMenuVC.backgroundImage = UIImage(named: "navbarBackground.png")
-        self.slideMenuVC.backgroundImageContentMode = UIViewContentMode.TopLeft;
+        self.slideMenuVC.backgroundImage = UIImage(named: "background.jpg")
+        self.slideMenuVC.backgroundImageContentMode = UIViewContentMode.ScaleToFill
         
         self.slideMenuVC.enablePan = true;
         

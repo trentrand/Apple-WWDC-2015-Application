@@ -27,7 +27,6 @@
 		DF91719A1AE88637006FB977 /* menuicon@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = DF9171971AE88637006FB977 /* menuicon@1x.png */; };
 		DF91719B1AE88637006FB977 /* menuicon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DF9171981AE88637006FB977 /* menuicon@2x.png */; };
 		DF91719C1AE88637006FB977 /* menuicon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = DF9171991AE88637006FB977 /* menuicon@3x.png */; };
-		DF91719E1AE88894006FB977 /* navbarBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = DF91719D1AE88894006FB977 /* navbarBackground.png */; };
 		DF9BD1171AEDB15C00F20E64 /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF9BD1161AEDB15C00F20E64 /* background.jpg */; };
 		DF9BD11B1AEDB22000F20E64 /* fontawesome-webfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DF9BD11A1AEDB22000F20E64 /* fontawesome-webfont.ttf */; };
 		DFA04F901AEC2EB60059C39C /* ProfileTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DFA04F8F1AEC2EB60059C39C /* ProfileTableViewCell.xib */; };
@@ -89,7 +88,6 @@
 		DF9171971AE88637006FB977 /* menuicon@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menuicon@1x.png"; sourceTree = "<group>"; };
 		DF9171981AE88637006FB977 /* menuicon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menuicon@2x.png"; sourceTree = "<group>"; };
 		DF9171991AE88637006FB977 /* menuicon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menuicon@3x.png"; sourceTree = "<group>"; };
-		DF91719D1AE88894006FB977 /* navbarBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = navbarBackground.png; sourceTree = "<group>"; };
 		DF9BD1161AEDB15C00F20E64 /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpg; sourceTree = "<group>"; };
 		DF9BD11A1AEDB22000F20E64 /* fontawesome-webfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "fontawesome-webfont.ttf"; sourceTree = "<group>"; };
 		DFA04F8F1AEC2EB60059C39C /* ProfileTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProfileTableViewCell.xib; sourceTree = "<group>"; };
@@ -211,7 +209,6 @@
 				DF032AE31AEAE24E009589FC /* ProfileImage.png */,
 				DF9BD1161AEDB15C00F20E64 /* background.jpg */,
 				DF29AE331AED9B6C008A4D54 /* AboutPicture.jpg */,
-				DF91719D1AE88894006FB977 /* navbarBackground.png */,
 				DF9171971AE88637006FB977 /* menuicon@1x.png */,
 				DF9171981AE88637006FB977 /* menuicon@2x.png */,
 				DF9171991AE88637006FB977 /* menuicon@3x.png */,
@@ -336,7 +333,6 @@
 				DF032AE41AEAE24E009589FC /* ProfileImage.png in Resources */,
 				DF5E12781ADE6AED005D036A /* LaunchScreen.xib in Resources */,
 				DF29AE341AED9B6C008A4D54 /* AboutPicture.jpg in Resources */,
-				DF91719E1AE88894006FB977 /* navbarBackground.png in Resources */,
 				DFA04FAC1AEC5CEA0059C39C /* Contact.png in Resources */,
 				DF9BD1171AEDB15C00F20E64 /* background.jpg in Resources */,
 				DF8EE92B1AEA22D4000A5004 /* HamburgerTableViewCell.xib in Resources */,
@@ -549,7 +545,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Trent Rand/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -571,7 +567,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Trent Rand/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
