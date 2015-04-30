@@ -9,8 +9,11 @@
 import Foundation
 
 class AboutViewController: UIViewController {
+    @IBOutlet var txtAbout: UITextView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        txtAbout.scrollRangeToVisible(NSRange(location:0, length:0))
     }
     
     override func didReceiveMemoryWarning() {
