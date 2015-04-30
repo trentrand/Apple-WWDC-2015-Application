@@ -14,11 +14,14 @@ class TraitsViewController: UIViewController, UIPageViewControllerDataSource, UI
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+
         self.pageController = UIPageViewController(transitionStyle: UIPageViewControllerTransitionStyle.Scroll, navigationOrientation: UIPageViewControllerNavigationOrientation.Horizontal, options: nil)
         
         self.pageController.dataSource = self
         self.pageController.view.frame = self.view.bounds
+        
+        UIPageControl.appearance().pageIndicatorTintColor = UIColor.darkGrayColor()
+        UIPageControl.appearance().currentPageIndicatorTintColor = UIColor.orangeColor()
         
         var initialViewController: TraitsChildViewController = self.viewControllerAtIndex(0) as! TraitsChildViewController
         
@@ -30,6 +33,8 @@ class TraitsViewController: UIViewController, UIPageViewControllerDataSource, UI
         self.view.addSubview(self.pageController.view)
         
         self.pageController.didMoveToParentViewController(self)
+        
+        self.createBlur(effectStyle: UIBlurEffectStyle.Light, index: 1)
     }
     
     override func didReceiveMemoryWarning() {

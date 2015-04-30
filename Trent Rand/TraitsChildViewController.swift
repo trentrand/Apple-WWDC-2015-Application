@@ -18,7 +18,12 @@ class TraitsChildViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+
+        self.view.backgroundColor = UIColor.clearColor()
         
+        // Force text view to start at top
+        traitsDescription.scrollRangeToVisible(NSRange(location:0, length:0))
+
         switch index {
         case 0:
             traitsTitle.text = "Personality"
@@ -35,14 +40,14 @@ class TraitsChildViewController: UIViewController {
         case 3:
             traitsTitle.text = "Communication"
             traitsLogo.text = ""
-            traitsDescription.text = "Never hesitate to ask, I’m great at simplifying and teaching complex problems and scenarios. With a strong background and accomplishment as a tutor, I have the background needed to help provide great help and assistance."
+            traitsDescription.text = "Never hesitate to ask, I’m great at simplifying and teaching complex problems and scenarios. With a strong background and accomplishment as a tutor, I am capable of providing great help and assistance."
         case 4:
             traitsTitle.text = "Expertise"
             traitsLogo.text = ""
             traitsDescription.text = "Check both my services and open source code.  While having a strong expertise in software engineering, I am also great at everything from mobile app development to website development, networking and even hardware."
         case 5:
             traitsTitle.text = "Ownership"
-            traitsLogo.text = ""
+            traitsLogo.text = ""
             traitsDescription.text = "I don’t wait for tasks, I actively push for improvement. Being internally motivated to solve problems and create great things is my contribution to the world."
         case 6:
             traitsTitle.text = "Open Source"
