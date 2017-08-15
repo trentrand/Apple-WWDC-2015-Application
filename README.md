@@ -1,8 +1,7 @@
 # WWDC 2015 Scholarship, my portfolio application
 __Apple WWDC 2015 scholarship application submission__
 
-
-![Software Screenshot](https://github.com/trentrand/WWDC-2015-Scholarship/blob/master/Assets/ScreenshotProfileSmall.png?raw=true width="211.2" height="374.88" "Software Screenshot")
+<img src="https://github.com/trentrand/WWDC-2015-Scholarship/blob/master/Assets/ScreenshotProfileSmall.png" width="211.2" height="374.88" alt="Software Screenshot">
 
 ### Version
 1.0 Final Submission
